@@ -1,0 +1,6 @@
+//Interface que define o contrato para classes de veiculos
+public interface Veiculo {
+    String getMarca(); // metodo para obter a marca do veiculo
+    String getModelo(); //metodo para obter o modelo do veiculo
+    double calcularImposto(); //metodo para calcular o imposto do veiculo
+}
